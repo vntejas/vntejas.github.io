@@ -2,132 +2,228 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Fit With Tejas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tejas Smartha | Online Fitness Coach</title>
+
 <style>
-body { margin:0; font-family:'Segoe UI',sans-serif; background:#f4f6f9; color:#222; }
-header {
-  background:linear-gradient(135deg,#111,#222);
-  color:white;
-  padding:80px 20px;
-  text-align:center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
-header h1 { font-size:48px; margin-bottom:10px; }
-header p { font-size:20px; opacity:0.9; }
-.badge {
-  background:#e63946; padding:14px 26px; border-radius:30px;
-  display:inline-block; margin-top:18px; font-size:14px; line-height:1.4;
-  letter-spacing:0.5px;
+
+body {
+  background: #0a0a0a;
+  color: white;
+  line-height: 1.6;
 }
-.insta-btn {
-  display:inline-block;
-  margin-top:18px;
-  padding:10px 22px;
-  border-radius:25px;
-  background:#E1306C;
-  color:white;
-  text-decoration:none;
-  font-size:15px;
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
 }
-section { max-width:1100px; margin:auto; padding:70px 20px; }
-h2 { text-align:center; font-size:36px; margin-bottom:40px; }
-.programs { display:flex; gap:30px; flex-wrap:wrap; justify-content:center; }
-.program {
-  background:white; padding:35px; border-radius:14px;
-  width:300px; box-shadow:0 10px 25px rgba(0,0,0,0.08);
-  transition:transform 0.3s;
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
 }
-.program:hover { transform:translateY(-5px); }
-.program h3 { margin-top:0; font-size:22px; }
-.program p { font-size:15px; line-height:1.6; color:#555; }
-.cta {
-  background:#111; color:white; padding:60px 20px; text-align:center;
+
+.hero h1 {
+  font-size: 38px;
 }
-.cta h2 { color:white; margin-bottom:20px; }
-.cta a {
-  background:#25d366; color:white; padding:14px 28px;
-  border-radius:30px; text-decoration:none; font-size:18px;
+
+.hero h2 {
+  color: #00ffae;
+  margin: 10px 0;
 }
-.contact {
-  text-align:center; font-size:18px; line-height:2;
+
+.hero p {
+  color: #aaa;
+  margin-bottom: 20px;
 }
-.contact span { font-weight:bold; }
-footer {
-  text-align:center; padding:30px; background:#111; color:#aaa;
-  font-size:14px;
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
-.download {
-  text-align:center;
-  margin-top:30px;
+
+.primary {
+  background: #00ffae;
+  color: black;
 }
-.download a {
-  background:#e63946;
-  color:white;
-  padding:14px 26px;
-  border-radius:25px;
-  text-decoration:none;
-  font-size:16px;
+
+.secondary {
+  border: 1px solid #00ffae;
+  color: #00ffae;
+}
+
+.section {
+  margin-top: 60px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #00ffae;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  background: #141414;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cert img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  color: #777;
 }
 </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Fit With Tejas</h1>
-  <p>Science-Based Online Fitness Coaching</p>
-  <div class="badge">
-    Advanced Personal Trainer<br>
-    Elite Certified — K11 School of Fitness Sciences & Government of India
-  </div><br>
-  <a class="insta-btn" href="https://www.instagram.com/tejas__6066" target="_blank">
-    Follow me on Instagram
-  </a>
-</header>
+<div class="container">
 
-<section>
-  <h2>Coaching Programs</h2>
-  <div class="programs">
-    <div class="program">
-      <h3>Fat Loss Science Program</h3>
-      <p>Evidence-based fat loss coaching focused on sustainable habits, metabolic health, and long-term results.</p>
-    </div>
-    <div class="program">
-      <h3>Lean Muscle Science Program</h3>
-      <p>Hypertrophy-focused training with progressive overload, recovery optimisation, and structured nutrition guidance.</p>
-    </div>
-    <div class="program">
-      <h3>Home Fitness Science Program</h3>
-      <p>Minimal-equipment training designed for consistency, fat loss, and full-body conditioning at home.</p>
-    </div>
-  </div>
-</section>
+<div class="hero">
+<h1>Tejas Smartha</h1>
+<h2>Certified Advanced Personal Trainer</h2>
+<p>Transform your body with expert coaching — fat loss, muscle gain & lifestyle change 💪</p>
 
-<section>
-  <h2>Free Beginner Workout</h2>
-  <p style="text-align:center; max-width:700px; margin:auto; font-size:18px;">
-    Download a structured 3-day beginner workout plan designed for safe progress and confidence in the gym.
-  </p>
-  <div class="download">
-    <a href="FitWithTejas_Beginner_Workout.pdf" target="_blank">Download Free Workout PDF</a>
-  </div>
-</section>
+<a class="btn primary" href="https://drive.google.com/uc?export=download&id=1hwNHRYpjljcEcwr2SGr9kPsqeJ0n7YAV" target="_blank">
+📥 Free Workout Plan
+</a>
 
-<div class="cta">
-  <h2>Ready to Start Your Transformation?</h2>
-  <p>Apply now and let’s build your best version together.</p>
-  <a href="https://wa.me/919880536066" target="_blank">Chat on WhatsApp</a>
+<a class="btn secondary" href="https://www.instagram.com/tejas__6066" target="_blank">
+📲 Instagram
+</a>
+
+<a class="btn primary" href="https://wa.me/919880536066?text=Hi%20Tejas%2C%20I%20saw%20your%20workout%20plan%20and%20I%20want%20coaching" target="_blank">
+💬 WhatsApp Me
+</a>
 </div>
 
-<section class="contact">
-  <h2>Contact</h2>
-  <p>
-    WhatsApp: <span>+91 9880536066</span><br>
-    Email: <span>vntejas.07@gmail.com</span>
-  </p>
-</section>
+<div class="section">
+<h2>About Me</h2>
+<p style="text-align:center; max-width:700px; margin:auto;">
+Fitness started as my passion and has now become my profession.
+I help individuals achieve real transformations through structured training,
+proper technique, and consistency — no shortcuts, just results.
+</p>
+</div>
 
-<footer>
-  © 2026 Fit With Tejas • All Rights Reserved
-</footer>
+<div class="section">
+<h2>Services</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Fat Loss</h3>
+<p>Lose weight effectively with structured plans</p>
+</div>
+
+<div class="card">
+<h3>Muscle Building</h3>
+<p>Build strength and lean muscle</p>
+</div>
+
+<div class="card">
+<h3>Body Recomposition</h3>
+<p>Burn fat & gain muscle simultaneously</p>
+</div>
+</div>
+</div>
+
+<div class="section cert">
+<h2>Certification</h2>
+<p style="text-align:center;">Certified by K11 School of Fitness Sciences</p>
+
+<img src="certificate.jpg" alt="Tejas Certificate">
+
+<p style="text-align:center; margin-top:10px;">
+<i>From passion to profession 🔥</i>
+</p>
+</div>
+
+<div class="section">
+<h2>Free Beginner Workout Plan</h2>
+
+<p style="text-align:center; max-width:700px; margin:auto;">
+Kickstart your fitness journey with my structured 3-day Push-Pull-Legs program.
+Perfect for beginners looking to build strength, lose fat, and stay consistent.
+</p>
+
+<div style="text-align:center; margin-top:20px;">
+<a class="btn primary" href="https://drive.google.com/uc?export=download&id=1hwNHRYpjljcEcwr2SGr9kPsqeJ0n7YAV" target="_blank">
+📥 Download Free Plan
+</a>
+</div>
+
+<p style="text-align:center; color:#888; margin-top:10px;">
+3-Day Split • Gym Based • Beginner Friendly
+</p>
+
+<p style="text-align:center; margin-top:20px;">
+Tried this plan? <b>DM me for a custom transformation program 🔥</b>
+</p>
+</div>
+
+<div class="section">
+<h2>Start Your Transformation</h2>
+
+<p style="text-align:center;">
+Serious about changing your body? Let’s work together 💪
+</p>
+
+<div style="text-align:center;">
+
+<a class="btn primary" 
+href="https://wa.me/919880536066?text=Hi%20Tejas%2C%20I%20want%20coaching" 
+target="_blank">
+💬 Chat on WhatsApp
+</a>
+
+<a class="btn secondary" 
+href="https://www.instagram.com/tejas__6066" 
+target="_blank">
+📲 DM on Instagram
+</a>
+
+</div>
+</div>
+
+<div class="footer">
+<p>© 2026 Tejas Smartha | Fitness Coach</p>
+</div>
+
+</div>
 
 </body>
 </html>
